@@ -1,0 +1,50 @@
+body {
+    background-color: #f8f9fa;
+  }
+  a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff ;
+}
+.container{
+    margin: 50px;
+}
+  #users {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card {
+    width: 18rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  #tebrikMesaji {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  #search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  #search-label {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  #search-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
